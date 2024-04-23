@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Калькулятор</title>
+
+</head>
+<body>
+    <h2>Калькулятор</h2>
+
+    <form action="calculator.php" method="post">
+        <label for="num1">Введіть перше число:</label><br>
+        <input type="text" id="num1" name="num1"><br>
+        <label for="num2">Введіть друге число:</label><br>
+        <input type="text" id="num2" name="num2"><br><br>
+        <input type="submit" value="Вивести дії">
+    </form>
+
+    <form action="check_login.php" method="post">
+        <label for="login">Введіть ваш логін:</label><br>
+        <input type="text" id="login" name="login"><br><br>
+        <label for="password">Введіть ваш пароль:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+        <input type="submit" value="Перевірити">
+    </form>
+
+    <form action="check_number.php" method="post">
+        <label for="number">Введіть число:</label><br>
+        <input type="text" id="number" name="number"><br><br>
+        <input type="submit" value="Перевірити на парність">
+    </form>
+
+    <form action="check_integer.php" method="post">
+        <label for="number">Введіть число:</label><br>
+        <input type="text" id="number1" name="number1"><br><br>
+        <input type="submit" value="Перевірити на ціле число">
+    </form>
+
+    <h2>Вгадайте число від 1 до 10</h2>
+
+    <form action="check_guess.php" method="post">
+        <input type="submit" value="Відгадати!">
+    </form>
+
+    <h2>Таблиця множення</h2>
+
+    <form action="multiplication_table.php" method="post">
+        <label for="number">Введіть число:</label><br>
+        <input type="text" id="number2" name="number2"><br><br>
+        <input type="submit" value="Показати таблицю">
+    </form>
+
+    <h2>Таблиця відношень числа 10 до введеного діапазону</h2>
+
+    <form action="division_table.php" method="post">
+        <label for="start">Введіть початок діапазону:</label><br>
+        <input type="text" id="start" name="start"><br><br>
+        <label for="end">Введіть кінець діапазону:</label><br>
+        <input type="text" id="end" name="end"><br><br>
+        <input type="submit" value="Вивести таблицю відношень">
+    </form>
+
+    <h2>Бактерії</h2>
+
+    <form action="bacteria.php" method="post">
+        <input type="submit" value="Бактерії!">
+    </form>
+    <form action="times.php" method="post">
+        <input type="submit" value="Множення 2 до 9!">
+    </form>
+</body>
+</html>
